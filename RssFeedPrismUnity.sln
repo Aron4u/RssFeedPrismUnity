@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{CFCCADBC-2744-42FD-B56A-5781A337AB03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{1CF9A378-8094-40A7-AB81-93084E22C9F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{04835118-76F1-44E8-8EA1-93620D312094}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{68523504-5E49-44CB-BDCD-F24BC922FE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssInfrastructure", "RssInfrastructure\RssInfrastructure.csproj", "{C82FCF71-8C35-4071-AF43-0A04C96BF325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssFeed", "Modules\RssFeed\RssFeed.csproj", "{403D6A72-103C-4712-BD01-779D49D7DC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssFeedBL", "RssFeedBL\RssFeedBL.csproj", "{2F6ABD03-3946-4F68-8C0B-78C1FCAF3A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBrowser", "Modules\NewsBrowser\NewsBrowser.csproj", "{6E1BFA65-0725-47DF-90C2-6AFEA1476235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFCCADBC-2744-42FD-B56A-5781A337AB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCCADBC-2744-42FD-B56A-5781A337AB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCCADBC-2744-42FD-B56A-5781A337AB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCCADBC-2744-42FD-B56A-5781A337AB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82FCF71-8C35-4071-AF43-0A04C96BF325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82FCF71-8C35-4071-AF43-0A04C96BF325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82FCF71-8C35-4071-AF43-0A04C96BF325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82FCF71-8C35-4071-AF43-0A04C96BF325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403D6A72-103C-4712-BD01-779D49D7DC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403D6A72-103C-4712-BD01-779D49D7DC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403D6A72-103C-4712-BD01-779D49D7DC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403D6A72-103C-4712-BD01-779D49D7DC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6ABD03-3946-4F68-8C0B-78C1FCAF3A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6ABD03-3946-4F68-8C0B-78C1FCAF3A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6ABD03-3946-4F68-8C0B-78C1FCAF3A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6ABD03-3946-4F68-8C0B-78C1FCAF3A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1BFA65-0725-47DF-90C2-6AFEA1476235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1BFA65-0725-47DF-90C2-6AFEA1476235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1BFA65-0725-47DF-90C2-6AFEA1476235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1BFA65-0725-47DF-90C2-6AFEA1476235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C82FCF71-8C35-4071-AF43-0A04C96BF325} = {04835118-76F1-44E8-8EA1-93620D312094}
+		{403D6A72-103C-4712-BD01-779D49D7DC2B} = {68523504-5E49-44CB-BDCD-F24BC922FE4A}
+		{2F6ABD03-3946-4F68-8C0B-78C1FCAF3A8F} = {1CF9A378-8094-40A7-AB81-93084E22C9F2}
+		{6E1BFA65-0725-47DF-90C2-6AFEA1476235} = {68523504-5E49-44CB-BDCD-F24BC922FE4A}
+	EndGlobalSection
+EndGlobal
