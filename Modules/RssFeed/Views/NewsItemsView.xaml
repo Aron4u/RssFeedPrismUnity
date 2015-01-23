@@ -20,9 +20,18 @@
     <ListBox Grid.Row="2" ItemsSource="{Binding Feed.Items}" SelectedItem="{Binding SelectedItem}" Margin="2,5,2,2">
       <ListBox.ItemTemplate>
         <DataTemplate>
-          <TextBlock Text="{Binding Title.Text}"/>
+          <Grid ToolTip="{Binding Title.Text}">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="40"/>
+              <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="{Binding PublishDate, StringFormat=t}"/>
+            <TextBlock Text="{Binding Title.Text}" Grid.Column="1" TextWrapping="Wrap"/>
+          </Grid>
         </DataTemplate>
       </ListBox.ItemTemplate>
+     
     </ListBox>
     </Grid>
 </view:ViewBase>
