@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Practices.Prism;
 using Microsoft.Practices.Prism.Mvvm;
 using Microsoft.Practices.Prism.Regions;
 
-namespace NewsBrowser.ViewModels
+namespace MVVM_Utilities
 {
   public class ViewModelBase:BindableBase,INavigationAware, IActiveAware
   {

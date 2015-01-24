@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace NewsBrowser.Views
+namespace MVVM_Utilities.Controls
 {
   /// <summary>
   /// Interaction logic for WebBrowserExt.xaml

@@ -1,9 +1,9 @@
-﻿<view:ViewBase x:Class="RssFeed.Views.FeedSelectionView"
+﻿<util:ViewBase x:Class="RssFeed.Views.FeedSelectionView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:view="clr-namespace:RssFeed.Views"
+             xmlns:util="utilities.seminare.wpf"
              xmlns:mvvmd="clr-namespace:Microsoft.Practices.Prism.Mvvm;assembly=Microsoft.Practices.Prism.Mvvm.Desktop"
              mvvmd:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
@@ -11,4 +11,4 @@
   <Grid VerticalAlignment="Center">
     <ComboBox Width="130" VerticalAlignment="Center" ItemsSource="{Binding Feeds}"  SelectedItem="{Binding SelectedFeed}" DisplayMemberPath="Name" Margin="2,6,2,2"/>
   </Grid>
-</view:ViewBase>
+</util:ViewBase>

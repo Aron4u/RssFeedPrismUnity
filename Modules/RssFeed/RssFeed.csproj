@@ -102,7 +102,6 @@
     <Compile Include="ViewModels\NavigateDetailsViewModel.cs" />
     <Compile Include="ViewModels\NewsDetailsViewModel.cs" />
     <Compile Include="ViewModels\NewsItemsViewModel.cs" />
-    <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\FeedSelectionView.xaml.cs">
       <DependentUpon>FeedSelectionView.xaml</DependentUpon>
     </Compile>
@@ -115,7 +114,6 @@
     <Compile Include="Views\NewsItemsView.xaml.cs">
       <DependentUpon>NewsItemsView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ViewBase.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -128,6 +126,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\MVVM_Utilities\MVVM_Utilities.csproj">
+      <Project>{c3e65a7c-e3d3-4016-bc37-7716a0dc618c}</Project>
+      <Name>MVVM_Utilities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\RssFeedBL\RssFeedBL.csproj">
       <Project>{2f6abd03-3946-4f68-8c0b-78c1fcaf3a8f}</Project>
       <Name>RssFeedBL</Name>

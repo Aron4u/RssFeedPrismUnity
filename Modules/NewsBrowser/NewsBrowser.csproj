@@ -100,16 +100,11 @@
     </Compile>
     <Compile Include="ViewModels\BrowserViewModel.cs" />
     <Compile Include="ViewModels\NavigateBrowserViewModel.cs" />
-    <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\BrowserView.xaml.cs">
       <DependentUpon>BrowserView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\NavigateBrowserView.xaml.cs">
       <DependentUpon>NavigateBrowserView.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\ViewBase.cs" />
-    <Compile Include="Views\WebBrowserExt.xaml.cs">
-      <DependentUpon>WebBrowserExt.xaml</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -131,12 +126,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\WebBrowserExt.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\MVVM_Utilities\MVVM_Utilities.csproj">
+      <Project>{c3e65a7c-e3d3-4016-bc37-7716a0dc618c}</Project>
+      <Name>MVVM_Utilities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\RssInfrastructure\RssInfrastructure.csproj">
       <Project>{c82fcf71-8c35-4071-af43-0a04c96bf325}</Project>
       <Name>RssInfrastructure</Name>

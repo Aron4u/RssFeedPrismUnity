@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Practices.Prism.PubSubEvents;
 using Microsoft.Practices.Unity;
+using MVVM_Utilities;
 using RssFeedBL;
 using RssInfrastructure;
 

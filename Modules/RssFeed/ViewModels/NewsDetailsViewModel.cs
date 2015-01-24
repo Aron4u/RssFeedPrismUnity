@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceModel.Syndication;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ServiceModel.Syndication;
 using Microsoft.Practices.Prism.PubSubEvents;
+using MVVM_Utilities;
 using RssInfrastructure;
 
 namespace RssFeed.ViewModels
