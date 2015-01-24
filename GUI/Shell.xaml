@@ -5,7 +5,7 @@
         xmlns:prism="http://www.codeplex.com/prism"
         
         xml:lang="de-DE"
-        Title="Shell" Height="800" Width="800">
+        Title="RSS-Feed-Reader mit Prism" Height="800" Width="800">
   <Grid>
     <Grid.ColumnDefinitions>
       <ColumnDefinition Width="Auto"/>
