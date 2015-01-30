@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM_Utilities", "MVVM_Utilities\MVVM_Utilities.csproj", "{C3E65A7C-E3D3-4016-BC37-7716A0DC618C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractivityBeispiele", "InteractivityBeispiele\InteractivityBeispiele.csproj", "{A1D9E07F-C5B1-457B-B1AA-C8A118470B3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C3E65A7C-E3D3-4016-BC37-7716A0DC618C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E65A7C-E3D3-4016-BC37-7716A0DC618C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E65A7C-E3D3-4016-BC37-7716A0DC618C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D9E07F-C5B1-457B-B1AA-C8A118470B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D9E07F-C5B1-457B-B1AA-C8A118470B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D9E07F-C5B1-457B-B1AA-C8A118470B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D9E07F-C5B1-457B-B1AA-C8A118470B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,5 +73,6 @@ Global
 		{2F6ABD03-3946-4F68-8C0B-78C1FCAF3A8F} = {1CF9A378-8094-40A7-AB81-93084E22C9F2}
 		{6E1BFA65-0725-47DF-90C2-6AFEA1476235} = {68523504-5E49-44CB-BDCD-F24BC922FE4A}
 		{C3E65A7C-E3D3-4016-BC37-7716A0DC618C} = {8C9C33EE-01A8-425A-9C6E-FF8307BFDAB1}
+		{A1D9E07F-C5B1-457B-B1AA-C8A118470B3D} = {68523504-5E49-44CB-BDCD-F24BC922FE4A}
 	EndGlobalSection
 EndGlobal
