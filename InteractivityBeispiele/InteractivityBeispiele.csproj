@@ -139,7 +139,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if not exist "$(SolutionDir)\GUI\bin\debug\modules" md  "$(SolutionDir)\GUI\bin\debug\modules"
-copy $(TargetPath) $(SolutionDir)\GUI\bin\debug\modules
+copy "$(TargetPath)" "$(SolutionDir)\GUI\bin\debug\modules"
 </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
